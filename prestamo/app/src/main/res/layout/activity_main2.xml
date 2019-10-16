@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Main2Activity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular Datos de Viaje"
+        android:textSize="15pt"
+        />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10pt"
+        android:hint="Kilometros recorridos"
+        android:inputType="numberDecimal"
+        android:id="@+id/edtKmrecorridos"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10pt"
+        android:hint="Precio Gasolina "
+        android:inputType="numberDecimal"
+        android:id="@+id/edtPrecioGas"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10pt"
+        android:hint="$ gastado de gasolina "
+        android:inputType="numberDecimal"
+        android:id="@+id/edtDinGas"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10pt"
+        android:hint="Tiempo que tardo "
+        android:inputType="numberDecimal"
+        android:id="@+id/edtTiempotar"
+        />
+
+    <Button
+        android:id="@+id/btnCalcular"
+        android:layout_width="322dp"
+        android:layout_height="wrap_content"
+        android:text="CALCULAR"
+        android:textSize="10pt" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10pt"
+        android:textColor="@android:color/holo_blue_bright"
+        android:id="@+id/txvResultado1"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10pt"
+        android:textColor="@android:color/holo_blue_bright"
+        android:id="@+id/txvResultado2"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10pt"
+        android:textColor="@android:color/holo_blue_bright"
+        android:id="@+id/txvResultado3"
+        />
+
+</LinearLayout>
